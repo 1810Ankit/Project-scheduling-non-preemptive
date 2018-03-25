@@ -16,7 +16,7 @@ while(i>0)
 printf("ENTER THE PROCESS OF THE PROCESS\n");
 scanf("%d"&arr_process[c].PID);//getting process id
 printf("\nENTER THE BURST PROCESS OF THE PROCESS\n");
-scanf("%d",&arr_process[c].burst_time); getting burst time of the process
+scanf("%d",&arr_process[c].burst_time); //getting burst time of the process
 c++;
 printf("IF YOU WANT TO ENTER NEXT PROCESS THEN PRESS ANY KEY else 0");
 int ch;
